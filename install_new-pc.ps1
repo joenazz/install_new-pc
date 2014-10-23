@@ -1,5 +1,4 @@
-﻿Update-ExecutionPolicy Unrestricted
-Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar
+﻿Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar
 Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart
 Enable-RemoteDesktop
 
