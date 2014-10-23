@@ -1,4 +1,9 @@
-﻿# Hibernating off
+﻿Update-ExecutionPolicy Unrestricted
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar
+Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart
+Enable-RemoteDesktop
+
+# Hibernating off
 cmd /c powercfg -h off
 cmd /c shutdown /r
 
